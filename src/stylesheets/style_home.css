@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: merriweather;
+  height: 3000px;
+  background-color: #ffede750;
+}
+header {
+  position: relative;
+}
+
+.homepage_header_image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+h1 {
+  position: absolute;
+  display: inline-block;
+  top: 13%;
+  left: 5%;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+nav {
+  position: absolute;
+  top: 38%;
+  left: 4%;
+}
+nav a {
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.757);
+  margin: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.757);
+  border-radius: 70px;
+  padding: 15px;
+  transition: transform 0.3s, color 0.3s, box-shadow 0.3s;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: rgb(240, 67, 36);
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px rgba(240, 67, 36, 0.5);
+}
+section {
+  text-align: center;
+  line-height: 50px;
+  margin: 150px;
+}
+
+p {
+  color: #2f2f2fd0;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #d9130e;
+  margin-bottom: 50px;
+}
+
+.about_norway {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+  grid-gap: 100px;
+}
+
+.image_gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+.image {
+  height: 450px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #791800;
+}
+
+aside {
+  text-align: center;
+  line-height: 45px;
+  margin: 50px;
+}
+aside li {
+  text-align: left;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+table {
+  width: 90%;
+  height: 400px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 15px;
+  margin: 0;
+  text-align: left;
+}
+
+th {
+  background-color: #ffa4880f;
+}
+
+.table_photo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+  color: #888888;
+}

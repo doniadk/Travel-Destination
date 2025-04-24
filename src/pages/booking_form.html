@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stylesheets/style_form.css" />
+  </head>
+  <body>
+    <header>
+      <img class="homepage_header_image" src="/public/booking.jpg" alt="" />
+      <h1>Book Now</h1>
+      <!-- Navigation Menu -->
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./destinations.html">Destinations</a>
+        <a href="./travel_tips.html">Travel Tips</a>
+        <a href="./travel_plans.html">Travel Plans</a>
+      </nav>
+    </header>
+
+    <section>
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Booking Details</legend>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="destination">Travel Plan:</label>
+            <select id="destination" name="destination" required>
+              <option value="">Select Destination</option>
+              <option value="Oslo">Oslo - City Sightseeing Tour</option>
+              <option value="Bergen">Bergen - Fjord Cruise Tour</option>
+              <option value="Tromsø">Tromsø - Northern Lights Tour</option>
+              <option value="Lofoten_Islands">
+                Lofoten Islands - Island Hopping Tour
+              </option>
+            </select>
+          </div>
+          <div>
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in" required />
+          </div>
+          <div>
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out" required />
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>Contact us: example@email.com</p>
+      <p>Copyright © 2024 Visit Norway. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
